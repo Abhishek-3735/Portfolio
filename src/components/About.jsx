@@ -14,7 +14,7 @@ import Bootstrap from '../assets/Bootstrap.png'
 const About = () => {
     return (
         //Entire body of an about section
-        <div id='skills' className="text-black bg-gray-200 px-4 lg:px-8 m-0 mb-0 pb-0 min-h-screen flex flex-col justify-center py-4">
+        <div id='skills' className="text-black bg-gray-200 px-4 lg:px-3 lg:m-0 m-0 mb-0 pb-0 min-h-screen flex flex-col justify-center py-4">
      <h1 className="text-center text-5xl font-bold mt-4 animate-bounce 
                bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 
                text-transparent bg-clip-text">
