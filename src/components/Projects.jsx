@@ -16,7 +16,9 @@ const Projects = () => {
         {/* Project 1 */}
         <div className="bg-sky-50 p-4 rounded-xl w-full sm:w-96 shadow-2xl group">
           <img src={project_1} alt="Portfolio Project" className="h-56 w-full object-cover rounded-md transition-transform duration-500 ease-in-out group-hover:scale-105 hover:scale-95" />
-          <h2 className="text-2xl font-bold pt-4 text-sky-500">Portfolio Website</h2>
+        <a href="http://kopperiabhishek-portfolio.vercel.app/"  target="_blank" rel="noopener noreferrer" 
+  className="text-2xl font-bold pt-4 text-sky-500"> Portfolio Website </a>
+
           <p className="pt-2 text-gray-700">
             This project is a modern portfolio website built with React, JavaScript, Tailwind CSS, and Particle.js. It
             features a responsive, interactive design with visually captivating particle effects, a dynamic portfolio
@@ -26,7 +28,9 @@ const Projects = () => {
         {/* Project 2 */}
         <div className="bg-sky-50 p-4 rounded-xl w-full sm:w-96 shadow-2xl group ">
           <img src={Project2} alt="Project 2" className="h-56 w-full object-cover rounded-md transition-transform duration-500 ease-in-out group-hover:scale-105 hover:scale-95" />
-          <h2 className="text-2xl font-bold pt-4 text-sky-600">VertAura</h2>
+          <a  href="http://vertaura.vercel.app/" target="_blank" rel="noopener noreferrer"
+            className="text-2xl font-bold pt-4 text-sky-600"> VertAura</a>
+          
           <p className="pt-2 text-gray-700">
           VertAura is a modern e-commerce platform for home and office greenery, built with React, JSX, HTML, CSS, JavaScript, and Tailwind CSS.
            It offers a diverse plant collection, including pottery plants, wall gardens, and decorative greenery.  
