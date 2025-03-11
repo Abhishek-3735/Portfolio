@@ -4,9 +4,11 @@ import styled from 'styled-components';
 const Button = () => {
   return (
     <StyledWrapper>
+      <a href="/Kopperi Abhishek_Resume.pdf" download>
       <button>
         Download CV
       </button>
+      </a>
     </StyledWrapper>
   );
 }

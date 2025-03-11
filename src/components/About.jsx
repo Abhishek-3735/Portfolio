@@ -72,7 +72,7 @@ const About = () => {
               <span className="ml-2">Java</span>
             </div>
             <div className="flex items-center border border-blue-300 p-3 rounded-xl shadow-md shadow-sky-400">
-              <img src={Github} alt="GitHub Icon" className="w-10" />
+              <img src={Github} alt="GitHub Icon" className="w-10 bg-black border rounded-xl" />
               <span className="ml-2">GitHub</span>
             </div>
                 </div>

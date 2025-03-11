@@ -6,6 +6,7 @@ import SendButton from "./SendButton";
 const ContactMe = () => {
   return (
     <div id="contactme" className="bg-gray-200 text-black px-4 py-8">
+<<<<<<< HEAD
       {/* Header Section */}
       <div className="max-w-4xl mx-auto lg:ml-0">
         <h1 className="text-3xl font-bold px-4 mb-4">Get in Touch</h1>
@@ -17,6 +18,19 @@ const ContactMe = () => {
         <Card/>
       </div>
   </div>
+=======
+    {/* Header Section */}
+    <div className="max-w-4xl mx-auto lg:ml-0">
+      <h1 className="text-3xl font-bold px-4 mb-4">Get in Touch</h1>
+      <p className="sm:text-center md:text-center lg:pl-4 lg:text-start text-gray-700 mb-6">
+        I'm always open to new opportunities and collaborations. Feel free to reach out!
+      </p>
+      <p className="sm:text-center md:text-center lg:pl-4 lg:text-start text-gray-700 mb-2">Contact Number: 9542068231</p>
+      <p className="sm:text-center md:text-center lg:pl-4 lg:text-start text-gray-700 mb-2">Email: <a href="mailto:kopperiabhishek@gmail.com" className="text-blue-600 hover:underline">kopperiabhishek@gmail.com</a></p>
+      <Card/>
+    </div>
+
+>>>>>>> d39a5e6 (updated contact links)
 
 
       {/* Main Content */}
